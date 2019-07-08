@@ -1,0 +1,157 @@
+
+
+header {
+    background:url(../images/bg.jpg) no-repeat left top / cover ;
+    color: #fff;
+    min-height:auto;
+    overflow-y: hidden;
+    position: relative;
+    width: 100%;
+}
+
+
+.device-container{ padding-top:150px; text-align:center;}
+.tag-line{ padding:250px 0 0px 0;}
+.tag-line h2{ font-size:50px;}
+.tag-line span{ color:#e65a3b;}
+.tag-line img{ border:2px solid #e65a3b; border-radius:10px; float:right;}
+.navbar-default span { color:#e65a3b;}
+.navbar-default h1 { color:#fff; padding:0; margin:0; font-size:30px;}
+.store-button{ padding:10px 0; text-align:center; width:100%;}
+.store-button img{ border:2px solid #e65a3b; border-radius:10px; float:right;}
+.feature{ padding: 0 0 20px 0; float:right; width:100%;}
+.feature h2{font-size:50px; padding-bottom:30px; font-family: cocon;}
+.feature span{color:#e65a3b;}
+.badge {color:#e65a3b; font-size:22px; border:1px solid #e65a3b;background:none; border-radius:50%; width:50px; height:50px; display: table-cell; text-align:center; float:right; margin-left:20px;}
+.testimonial{ background:#333; padding:30px 0; color:#fff;}
+.testimonial span{color:#e65a3b; font-size:50px;}
+.screen-shot{ padding-top:40px;}
+.screen-shot h2{font-size:50px; padding-bottom:30px;}
+.screen-shot span{color:#e65a3b;}
+.get-app { background:#e65a3b; padding:30px 0 0 0; color:#fff;}
+.get-app h2{font-size:50px; padding-bottom:30px;}
+.get-app p{font-size:18px;}
+.get-app img{ display:inline-block;}
+.follow-us{ padding:0 0 40px 0;  float:right; width:100%;}
+.follow-us h2{font-size:50px; padding-bottom:30px;}
+.follow-us i {color:#e65a3b;font-size:30px; border:1px solid #e65a3b; background:none; border-radius:50%; width:50px; height:50px; margin-left:20px; line-height: 1.6;}
+.follow-us img{ border-radius:10px; float:right;}
+.footer {background-color: #f5f5f5; padding:20px 0; width: 100%;}
+section{padding: 65px 0 0 0; position: relative;}
+
+
+/* carousel */
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #fff;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: right;
+    margin-left: 10px;
+}
+
+
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }
+    
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) { 
+    
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:1024px){
+.feature h2 {padding-top: 30px;}
+.tag-line {padding:120px 0 0 0;}	
+}
+@media (min-width:320px) and (max-width:640px){
+	.tag-line {padding:70px 0 0 0;}
+	.tag-line h2 {font-size: 35px;}
+	.device-container {padding-top: 10px;}
+	.feature h2{font-size:40px;}
+	
+}
